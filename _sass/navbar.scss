@@ -1,0 +1,54 @@
+.nav-bar {
+    width: 100%;
+    display: inline-block;
+    background-color: #1C539F;
+    font-family: "Poppins", serif;
+    font-weight: 700 !important;
+}
+
+.nav-content .logo-touch-target {
+    display: inline-flex;
+    height: 60%;
+    width: 350px;
+}
+
+.nav-link {
+    position: absolute;
+    color: white;
+    top: 10px;
+    right: 10px;
+}
+
+a{
+    transition: 0.5s;
+}
+
+a:hover, a:focus {
+    color: #ffcd69;
+    transition: 0.5s;
+}
+
+
+.nav-content .nav-logo {
+    height: 60px;
+    margin: auto;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo img {
+    margin-left: 1rem;
+    width: calc(100px + 6vw); 
+}
+
+.nav-content nav {
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-top: 0px;
+    padding-right: 0px;
+}
